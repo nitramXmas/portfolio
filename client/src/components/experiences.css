@@ -1,0 +1,16 @@
+.experiences {
+    min-height: 100%;
+}
+
+.timeline {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.line {
+    height: 95%;
+    width: 1px;
+    border: 1px solid cyan;
+}
