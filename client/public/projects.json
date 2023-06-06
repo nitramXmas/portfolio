@@ -1,0 +1,78 @@
+[
+    {
+        "id": 1,
+        "image": "",
+        "status": "En-cours",
+        "type": "Projet en groupe",
+        "title": "Make It Grow",
+        "text": "Plateforme d'idéation",
+        "gitLink": "",
+        "link": "",
+        "tech": [
+            "JavaScript",
+            "React",
+            "Express.js",
+            "MySQL",
+            "Git",
+            "GitHub",
+            "Figma"
+        ]
+    },
+    {
+        "id": 2,
+        "image": "",
+        "status": "Terminé",
+        "type": "Hackaton",
+        "title": "Luggage-Maker",
+        "text": "Jeu sur le thème du voyage",
+        "gitLink": "",
+        "link": "",
+        "tech": [
+            "JavaScript",
+            "React",
+            "Express.js",
+            "MySQL",
+            "Git",
+            "GitHub",
+            "Figma"
+        ]
+    },
+    {
+        "id": 3,
+        "image": "",
+        "status": "Terminé",
+        "type": "Projet en groupe",
+        "title": "Apollo",
+        "text": "Planetarium 3D ineractif",
+        "gitLink": "",
+        "link": "",
+        "tech": [
+            "JavaScript",
+            "React",
+            "Three.js",
+            "React Three Fiber",
+            "Express.js",
+            "Git",
+            "GitHub",
+            "Figma"
+        ]
+    },
+    {
+        "id": 4,
+        "image": "",
+        "status": "Terminé",
+        "type": "Projet en groupe",
+        "title": "Wookie - Clicker",
+        "text": "Jeu de type cookie-clicker sur le thème de Star Wars",
+        "gitLink": "",
+        "link": "",
+        "tech": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Git",
+            "GitHub",
+            "Figma"
+        ]
+    }
+]

@@ -1,0 +1,45 @@
+.experiences {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap : 1em
+}
+
+.line {
+    min-height: 100%;
+    width: 1px;
+    border: 1px solid cyan;
+}
+
+.expCards {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.expCard {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.techs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.tech {
+    padding: 0.5em 0.5em;
+    border: 1px solid cyan;
+    color: cyan;
+    border-radius: 1em;
+    display: table-cell;
+    vertical-align: middle;
+}
