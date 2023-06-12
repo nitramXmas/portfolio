@@ -1,12 +1,13 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
-import Experience from './Experience'
+import Experience from '../experienceCard/ExperienceCard'
 import './experiences.css'
 
 
 const Experiences = () => {
 
 const [experiences, setExperiences] = useState([])
+
 
 useEffect(()=> {
 

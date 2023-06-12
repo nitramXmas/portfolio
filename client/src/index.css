@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 :root {
 
     --main-bg-color :  #15213d;
     --main-txt-color: rgb(170, 167, 167);
-    --main-width-90: 90%;
     --main-font: 'Lato',sans-serif;
 }
 

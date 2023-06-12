@@ -1,16 +1,14 @@
-import Navbar from './components/Navbar'
-import Core from './pages/Core'
-import Profile from './components/Profile'
+import Navbar from './components/navbar/Navbar.jsx'
+import Main from './pages/Main.jsx'
 import './App.css'
 
 function App() {
 
 
   return (
-    <div className='main'>
-        <Profile />
-        <Navbar />
-        <Core />
+    <div className='app'>
+      <Navbar />
+      <Main />
     </div>
   )
 }

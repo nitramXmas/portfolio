@@ -1,0 +1,22 @@
+.navbar {
+  position: sticky;
+  top: 6em;
+  background-color: blueviolet;
+  height: calc(100vh - 12em);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}

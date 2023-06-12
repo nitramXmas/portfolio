@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "",
+    "image": "/make-it-grow.png",
     "status": "En-cours",
     "type": "Projet en groupe",
     "title": "Make It Grow",
@@ -20,7 +20,7 @@
   },
   {
     "id": 2,
-    "image": "",
+    "image": "/luggage.png",
     "status": "Terminé",
     "type": "Hackaton",
     "title": "Luggage-Maker",

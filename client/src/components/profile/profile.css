@@ -1,0 +1,11 @@
+.profile{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.profile h1 {
+
+  font-size: 3em;
+
+}
