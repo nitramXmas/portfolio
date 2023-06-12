@@ -10,8 +10,8 @@ const Experience = ({experience}) => {
             <p>{experience.text}</p>
         </div>
         <div className="techs">
-            {experience.tech && experience.tech.map((tech)=>(
-                <div className="tech">{tech}</div>
+            {experience.tech && experience.tech.map((tech, index)=>(
+                <div key={index} className="tech">{tech}</div>
             ))}
         </div>
         <p>{experience.duration}</p>

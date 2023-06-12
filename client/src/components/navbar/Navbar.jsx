@@ -11,9 +11,18 @@ const Navbar = () => {
       <div className="header">
         <Profile />
           <ul className='navlist'>
-              <li>A propos</li>
-              <li>Experience</li>
-              <li>Projects</li>
+              <a href='#about' className='navline'>
+                <div className='line'></div>
+                <li>A PROPOS</li>
+              </a>
+              <a href='#experiences' className="navline">
+                <div className='line'></div>
+                <li>EXPERIENCE</li>
+              </a>
+              <a href='#projects' className="navline">
+                <div className='line'></div>
+                <li>PROJECT</li>
+              </a>
           </ul>
       </div>
         <Socials />

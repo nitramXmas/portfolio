@@ -19,11 +19,10 @@ useEffect(()=> {
 },[])
 
   return (
-    <>
+    <section id='experiences'>
     <h4>Experience</h4>
     <div className='experiences'>
         <div className="timeline">
-            <div className='line'></div>
             <div className="expCards">
                 {experiences && experiences.map((experience)=>(
                     <Experience key={experience.id} experience = {experience} />
@@ -31,7 +30,7 @@ useEffect(()=> {
             </div>
         </div>
     </div>
-    </>
+    </section>
   )
 }
 

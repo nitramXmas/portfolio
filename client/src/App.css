@@ -25,6 +25,17 @@
 
   .navbar {
     position: relative;
+    margin-bottom: 5em;
+  }
+
+  .header{
+    gap: 2em;
+  }
+
+  .navline {
+
+    display: none;
+
   }
   
 }

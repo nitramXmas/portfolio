@@ -1,7 +1,6 @@
 .navbar {
   position: sticky;
   top: 6em;
-  background-color: blueviolet;
   height: calc(100vh - 12em);
   display: flex;
   flex-direction: column;
@@ -14,9 +13,47 @@
   gap: 4em;
 }
 
+
+.navline {
+  all:unset;
+  cursor:pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+  width: 10em;
+  color: rgba(170, 167, 167, 0.5);
+}
+
+.navline:hover {
+  color: rgb(170, 167, 167);
+}
+
+.navline:hover .line {
+  transition: all;
+  width: 4em;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .40s;
+  background-color:  rgb(170, 167, 167);
+}
+
+.navline .line {
+  height: 1px;
+  width: 1.5em;
+  background-color:  rgba(170, 167, 167, 0.5);
+
+}
+
 .header ul {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 1em;
 }
+
+.header li {
+  font-size: 0.8em;
+  font-weight: 900;
+}
+
+

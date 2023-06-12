@@ -17,7 +17,7 @@ useEffect(()=> {
 },[])
 
   return (
-    <>
+    <section id='projects'>
     <h4>Projects</h4>
     <div className='projects'>
 
@@ -26,7 +26,7 @@ useEffect(()=> {
       ))}
 
     </div>
-    </>
+    </section>
   )
 }
 
