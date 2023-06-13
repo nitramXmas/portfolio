@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import ProjectCard from '../projectCard/ProjectCard'
-import './projects.css'
+
 
 const Projects = () => {
 

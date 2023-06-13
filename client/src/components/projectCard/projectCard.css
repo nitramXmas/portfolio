@@ -9,9 +9,17 @@
 
 .project_container:hover {
 
-  background-color: rgba(212, 227, 226, 0.6);
+  background-color: rgba(212, 227, 226, 0.067);
   transition: .5s;
-  color: rgba(3, 33, 31, 0.6);
+  color: rgb(225, 225, 225);
+
+
+}
+
+.project_container:hover .project_picture {
+
+transform: scale(1.8) translateX(-3em);
+transition: transform .5s;
 
 
 }
@@ -26,12 +34,12 @@
 
 }
 
-.project_picture:hover {
+/*.project_picture:hover {
 
-transform: scale(2.5);
-transition: transform .5s; /* Animation */
+transform: scale(2.5) translateX(-6em);
+transition: transform .5s; 
 
-}
+}*/
 
 .project_content {
 

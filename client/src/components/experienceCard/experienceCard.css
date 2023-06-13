@@ -1,28 +1,39 @@
 .card_container {
 
   display: flex;
-  gap: 1em;
+  gap: 1.5em;
+  padding: 1em;
+  border-radius: .8em;
+
+}
+
+.card_container:hover {
+
+  background-color: rgba(212, 227, 226, 0.067);
+  transition: .5s;
+  color: rgb(225, 225, 225);
+
 
 }
 
 .card_duration {
 
-  width: 20%;
+  width: 30%;
+  text-align: left;
 
 }
 
 .card_title {
   display: flex;
   flex-direction: column;
-  gap: .2em;
 }
 
 .card_content {
 
-width: 80%;
+width: 70%;
 display: flex;
 flex-direction: column;
-gap: 1em;
+gap: .9em;
 
 }
 

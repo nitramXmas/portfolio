@@ -1,63 +1,51 @@
 [
-    {
-        "id": 1,
-        "title": "Développeur JavaScript",
-        "place": "Wild Code School",
-        "duration": "2023 — Présent",
-        "text": "Apprentissage du langage JavaScript et de la librairie React pour le front-end. Côté backend, utilisation de Node.js couplé au framework Express.js. Création de plusieurs projets de groupes sur ces technologies. À noter : apprentissage et utilisation de la librairie Three.js et de React Three Fiber (3D) dans le cadre du projet Apollo",
-        "tech": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "React",
-            "Node.js",
-            "Express.js",
-            "MySQL",
-            "Three.js",
-            "React Three Fiber"
-        ]
-    },
-    {
-        "id": 2,
-        "title": "Chargé de systèmes d'information",
-        "place": "Technoflex",
-        "duration": "2016 — 2023",
-        "text": "Au sein d'une équipe informatique en milieu industriel, j'ai mené à bien plusieurs projets d'infrastructure, d'administration sur les systèmes Linux et Windows et de sécurité tout en assurant le support aux utilisateurs. À noter : administration et gestion de projets sur l'ERP SAP et plus précisément pour les modules BC, PP et QM",
-        "tech": [
-            "Windows Server",
-            "Exchange Server",
-            "SQL Server",
-            "Hyper-V",
-            "ADDS",
-            "DNS",
-            "GPO",
-            "Veeam Backup & Replication",
-            "Fortinet"
-        ]
-    },
-    {
-        "id": 3,
-        "title": "Administrateur de bases de données",
-        "place": "Sogeti",
-        "duration": "2013 — 2015",
-        "text": "Support N2 Oracle et SQL Server. Exécution, suivi et contrôle des sauvegardes et des bascules. Astreinte 24/7 de serveurs de production. Installation de serveurs SQL Server et Oracle sous environnements Windows et Linux. À noter : Mise en place d'un serveur Oracle Grid Control",
-        "tech": [
-            "SQL Server",
-            "Oracle Database",
-            "Windows Server",
-            "REHL"
-        ]
-    },
-    {
-        "id": 4,
-        "title": "Administrateur de supervision",
-        "place": "Sogeti",
-        "duration": "2013",
-        "text": "Conception de modules de supervision stockage et sauvegarde. Tests des modules avec déclenchement d'incident et mise en production",
-        "tech": [
-            "Nagios",
-            "Centreon",
-            "Shinken"
-        ]
-    }
+  {
+    "id": 1,
+    "title": "Développeur JavaScript",
+    "place": "Wild Code School",
+    "duration": "2023 — Présent",
+    "text": "Apprentissage du langage JavaScript et de la librairie React pour le front-end. Côté backend, utilisation de Node.js couplé au framework Express.js. Création de plusieurs projets de groupes sur ces technologies. À noter : apprentissage et utilisation de la librairie Three.js et de React Three Fiber (3D) dans le cadre du projet Apollo",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express.js",
+      "MySQL",
+      "Three.js",
+      "React Three Fiber"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Chargé de systèmes d'information",
+    "place": "Technoflex",
+    "duration": "2016 — 2023",
+    "text": "Au sein d'une équipe informatique en milieu industriel, j'ai mené à bien plusieurs projets d'infrastructure, d'administration sur les systèmes Linux et Windows et de sécurité tout en assurant le support aux utilisateurs. À noter : administration et gestion de projets sur l'ERP SAP et plus précisément pour les modules BC, PP et QM",
+    "tech": [
+      "Windows Server",
+      "Exchange Server",
+      "SQL Server",
+      "Hyper-V",
+      "ADDS",
+      "DNS",
+      "GPO",
+      "Veeam Backup & Replication",
+      "Fortinet"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Administrateur de bases de données",
+    "place": "Sogeti",
+    "duration": "2013 — 2015",
+    "text": "Support N2 Oracle et SQL Server. Exécution, suivi et contrôle des sauvegardes et des bascules. Astreinte 24/7 de serveurs de production. Installation de serveurs SQL Server et Oracle sous environnements Windows et Linux. À noter : Mise en place d'un serveur Oracle Grid Control",
+    "tech": [
+      "SQL Server",
+      "Oracle Database",
+      "Windows Server",
+      "REHL"
+    ]
+  }
 ]

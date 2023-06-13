@@ -9,8 +9,8 @@
 :root {
 
     --main-bg-color :  #0f172e;
-    --main-txt-color: rgb(170, 167, 167);
-    --main-font: 'Lato',sans-serif;
+    --main-txt-color: rgb(148 163 184);
+    --main-font: 'Mulish', sans-serif;
 }
 
 html,
