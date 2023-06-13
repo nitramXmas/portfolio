@@ -1,20 +1,25 @@
 import React from 'react'
+import './experienceCard.css'
 
 const Experience = ({experience}) => {
 
   return (
-    <div className="expCard">
-        <div className="techInfos">
-            <h4>{experience.title}</h4>
-            <p>A : {experience.place}</p>
+    <div className="card_container">
+      <div className="card_duration">{experience.duration}</div>
+        <div className="card_content">
+            <div className="card_header">
+              <div className="card_title">
+                <h4>{experience.title}</h4>
+                <p>A : {experience.place}</p>
+              </div>
+            </div>
             <p>{experience.text}</p>
+            <div className="exp_techs">
+                {experience.tech && experience.tech.map((tech, index)=>(
+                  <div key={index} className="exp_tech">{tech}</div>
+                  ))}
         </div>
-        <div className="techs">
-            {experience.tech && experience.tech.map((tech, index)=>(
-                <div key={index} className="tech">{tech}</div>
-            ))}
-        </div>
-        <p>{experience.duration}</p>
+      </div>
     </div>
   )
 }
