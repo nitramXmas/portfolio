@@ -21,11 +21,11 @@
   align-items: center;
   gap: 0.8em;
   width: 10em;
-  color: rgba(170, 167, 167, 0.5);
+  color: var(--main-txt-color);
 }
 
 .navline:hover {
-  color: rgb(170, 167, 167);
+  color: rgb(225, 225, 225);
 }
 
 .navline:hover .line {
@@ -34,7 +34,7 @@
   transition-property: all;
   transition-timing-function: cubic-bezier(.4,0,.2,1);
   transition-duration: .40s;
-  background-color:  rgb(170, 167, 167);
+  background-color:  rgb(225, 225, 225);
 }
 
 .navline .line {
