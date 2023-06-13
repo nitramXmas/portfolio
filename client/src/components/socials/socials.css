@@ -1,0 +1,14 @@
+.socials_icons {
+
+  display: flex;
+  align-items: center;
+  gap: 1em;
+
+}
+
+.socials_icons img {
+  filter: invert(90%) sepia(9%) saturate(207%) hue-rotate(127deg) brightness(100%) contrast(91%);
+  
+  width: 2.2em;
+  height: 2.2em;
+}

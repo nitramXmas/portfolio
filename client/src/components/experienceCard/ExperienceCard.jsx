@@ -10,7 +10,7 @@ const Experience = ({experience}) => {
             <div className="card_header">
               <div className="card_title">
                 <h4>{experience.title}</h4>
-                <p>A : {experience.place}</p>
+                <p>🏬 {experience.place}</p>
               </div>
             </div>
             <p>{experience.text}</p>

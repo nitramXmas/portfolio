@@ -19,7 +19,7 @@ useEffect(()=> {
   return (
     <section id='projects'>
     <h4>Projects</h4>
-    <div className='projects'>
+    <div className='project_cards'>
 
       {projects && projects.map((project)=>(
           <ProjectCard key={project.id} project = {project} />

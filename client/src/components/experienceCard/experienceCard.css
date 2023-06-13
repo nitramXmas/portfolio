@@ -11,6 +11,12 @@
 
 }
 
+.card_title {
+  display: flex;
+  flex-direction: column;
+  gap: .2em;
+}
+
 .card_content {
 
 width: 80%;
