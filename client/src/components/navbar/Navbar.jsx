@@ -2,6 +2,7 @@ import React from 'react'
 import './navbar.css'
 import Profile from '../profile/Profile'
 import Socials from '../socials/Socials'
+import { HashLink } from 'react-router-hash-link';
 
 
 const Navbar = ({activeSection, setActiveSection}) => {
@@ -11,18 +12,11 @@ const Navbar = ({activeSection, setActiveSection}) => {
       <div className="header">
         <Profile />
           <ul className='navlist'>
-              <a onClick={()=>setActiveSection('about')} href='#about' className={activeSection === 'about' ? 'navline active' : 'navline'}>
-                <div className='line'></div>
-                <li>A PROPOS</li>
-              </a>
-              <a onClick={()=>setActiveSection('experiences')} href='#experiences' className={activeSection === 'experiences' ? 'navline active' : 'navline'}>
-                <div className='line'></div>
-                <li>EXPERIENCE</li>
-              </a>
-              <a onClick={()=>setActiveSection('projects')} href='#projects' className={activeSection === 'projects' ? 'navline active' : 'navline'}>
-                <div className='line'></div>
-                <li>PROJECT</li>
-              </a>
+
+              <HashLink onClick={()=>setActiveSection('about')} className={activeSection === 'about' ? 'navline active' : 'navline'} smooth to="/#about"><div className='line'></div><li>A PROPOS</li></HashLink>
+              <HashLink onClick={()=>setActiveSection('experiences')} className={activeSection === 'experiences' ? 'navline active' : 'navline'} smooth to="/#experiences"><div className='line'></div><li>EXPERIENCES</li></HashLink>
+              <HashLink onClick={()=>setActiveSection('projects')} className={activeSection === 'projects' ? 'navline active' : 'navline'} smooth to="/#projects"><div className='line'></div><li>PROJECTS</li></HashLink>
+              
           </ul>
       </div>
         <Socials />

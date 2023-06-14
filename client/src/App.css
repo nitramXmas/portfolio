@@ -1,4 +1,4 @@
-.app {
+.main {
 
   width: 100%;
   padding: 6em 2em;
@@ -10,38 +10,9 @@
 
 }
 
-.navbar, .main {
+.navbar, .content {
   flex:1;
   padding: 0.5em
 
 }
 
-.main section > h4 {
-  display:none;
-}
-
-@media screen and (max-width:860px) {
-
-  .app {
-    flex-direction: column;
-    padding: 0 2em;
-  }
-
-  .navbar {
-    position: relative;
-    margin-bottom: 5em;
-  }
-
-  .header{
-    gap: 2em;
-  }
-
-  .navline {
-    display: none;
-  }
-
-.main section > h4 {
-  display:block;
-}
-  
-}

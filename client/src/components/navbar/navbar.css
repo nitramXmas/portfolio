@@ -24,6 +24,7 @@
   color: var(--main-txt-color);
 }
 
+
 .navline:hover {
   color: rgb(225, 225, 225);
 }
@@ -50,6 +51,12 @@
 
 }
 
+.active li {
+
+  color: rgb(225, 225, 225);
+
+}
+
 .header ul {
   list-style: none;
   display: flex;
@@ -60,6 +67,32 @@
 .header li {
   font-size: 0.8em;
   font-weight: 900;
+}
+
+@media screen and (max-width:860px) {
+
+  .main {
+    flex-direction: column;
+    padding: 0 2em;
+  }
+
+  .navbar {
+    position: relative;
+    margin-bottom: 5em;
+  }
+
+  .header{
+    gap: 2em;
+  }
+
+  .navline {
+    display: none;
+  }
+
+.content section > h4 {
+  display:block;
+}
+  
 }
 
 

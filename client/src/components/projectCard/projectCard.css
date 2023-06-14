@@ -4,7 +4,7 @@
   gap: 2em;
   padding: 1em;
   border-radius: .8em;
-
+  
 }
 
 .project_container:hover {
@@ -16,13 +16,6 @@
 
 }
 
-.project_container:hover .project_picture {
-
-transform: scale(1.8) translateX(-3em);
-transition: transform .5s;
-
-
-}
 
 .project_picture {
 
@@ -34,12 +27,6 @@ transition: transform .5s;
 
 }
 
-/*.project_picture:hover {
-
-transform: scale(2.5) translateX(-6em);
-transition: transform .5s; 
-
-}*/
 
 .project_content {
 
@@ -59,7 +46,7 @@ transition: transform .5s;
 }
 
 .project_status {
-  word-spacing: 1em;
+  word-spacing: .3em;
 }
 
 .project_techs {

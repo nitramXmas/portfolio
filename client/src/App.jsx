@@ -1,17 +1,21 @@
-import { useState } from 'react'
-import Navbar from './components/navbar/Navbar.jsx'
-import Main from './pages/Main.jsx'
+
+import { Routes, Route } from "react-router-dom"
+
 import './App.css'
+import Main from './pages/Main'
+import ProjectDetails from './pages/ProjectDetails'
 
 function App() {
 
-  const [activeSection, setActiveSection] = useState('about')
+  
 
   return (
-    <div className='app'>
-      <Navbar activeSection={activeSection} setActiveSection={setActiveSection} />
-      <Main activeSection={activeSection} setActiveSection={setActiveSection} />
-    </div>
+
+      <Routes>
+        <Route path="/" element={<Main />}></Route>
+        <Route path="/projects/:id" element={<ProjectDetails />}></Route>
+      </Routes>
+
   )
 }
 

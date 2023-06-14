@@ -1,4 +1,4 @@
-.main {
+.content {
   display: flex;
   flex-direction: column;
   gap: 6em;
@@ -28,6 +28,10 @@ display: flex;
 flex-direction: column;
 gap: 3em;
 
+}
+
+.content section > h4 {
+  display:none;
 }
 
 section  h4 {
