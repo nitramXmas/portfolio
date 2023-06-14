@@ -3,7 +3,7 @@ import Experiences from '../components/experiences/Experiences.jsx'
 import Projects from '../components/projects/Projects'
 import './main.css'
 
-const Main = (prps) => {
+const Main = () => {
 
   return (
     <div className='main'>

@@ -8,7 +8,6 @@ const ProjectCard = ({project}) => {
     <div className='project_container'>
       {project.link ? <a href={project.link} className='project_picture' style={{backgroundImage: `url(${project.image})`}}>
       </a> : <div className='project_picture' style={{backgroundImage: `url(${project.image})`}}></div> }
-      
       <div className='project_content'>
         <div className="project_header">
           <div className="project_firstline">

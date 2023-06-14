@@ -29,11 +29,7 @@
 }
 
 .navline:hover .line {
-  transition: all;
   width: 4em;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(.4,0,.2,1);
-  transition-duration: .40s;
   background-color:  rgb(225, 225, 225);
 }
 
@@ -41,6 +37,16 @@
   height: 1px;
   width: 1.5em;
   background-color:  rgba(170, 167, 167, 0.5);
+  transition: all;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .40s;
+
+}
+
+.active .line {
+
+  width: 4em;
+  background-color:  rgb(225, 225, 225);
 
 }
 
