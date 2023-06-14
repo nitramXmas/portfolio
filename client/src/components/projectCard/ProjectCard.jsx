@@ -5,13 +5,13 @@ import { Link } from 'react-router-dom'
 const ProjectCard = ({project}) => {
 
   return (
-    <Link style={{ color: 'inherit', textDecoration: 'inherit'}}  to={`/project/${project.id}`}>
+    <Link state={project}style={{ color: 'inherit', textDecoration: 'inherit'}}  to={`/projects/${project.id}`}>
       <div className='project_container'>
         <div className='project_picture' style={{backgroundImage: `url(${project.image})`}}></div>
         <div className='project_content'>
           <div className="project_header">
             <div className="project_firstline">
-              <h1>{project.title}</h1>
+              <h1>{project.subtitle}</h1>
               <div className="project_status">
                 {project.status === 'Terminé' ? <p> {project.status}      ✅</p> : null}
                 {project.status === 'En-cours' ? <p> {project.status}     🚀</p> : null}

@@ -5,7 +5,7 @@
     "status": "En-cours",
     "type": "Projet en groupe",
     "title": "Make It Grow",
-    "text": "Plateforme d'idéation",
+    "subtitle": "Plateforme d'idéation",
     "gitLink": "",
     "link": "",
     "tech": [
@@ -23,7 +23,7 @@
     "status": "Terminé",
     "type": "Hackaton",
     "title": "Luggage-Maker",
-    "text": "Jeu sur le thème du voyage",
+    "subtitle": "Jeu sur le thème du voyage",
     "gitLink": "https://github.com/nitramXmas/luggage-maker",
     "link": "",
     "tech": [
@@ -41,7 +41,7 @@
     "status": "Terminé",
     "type": "Projet en groupe",
     "title": "Apollo",
-    "text": "Planetarium 3D ineractif",
+    "subtitle": "Planetarium 3D ineractif",
     "gitLink": "https://github.com/nitramXmas/apollo",
     "link": "https://apollo.martinnoel.fr/",
     "tech": [
