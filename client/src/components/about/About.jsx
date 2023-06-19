@@ -5,12 +5,11 @@ const About = () => {
   return (
     <section className='about' id='about'>
       <h4 id='about-title'>A propos</h4>
-        <p>Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development. Fast-forward to today, and I’ve had the privilege of building software for an advertising agency, a start-up, a student-led design studio, and a huge corporation.</p>
+        <p>After <span className="text_enlighted">10 years of experience in systems administration, networks, and databases</span>, I decided to embark on the adventure of web development. I was fortunate enough to join the <span className="text_enlighted">Wild Code School</span> and its "Web and Mobile Developer" program, focused on <span className="text_enlighted">learning React, Express.js, and MySQL</span>.</p>
         <br />
-        <p>My main focus these days is building products and leading projects for our clients at Upstatement. In my free time I've also released an online video course that covers everything you need to know to build a web app with the Spotify API.
-        </p>
+        <p>To date, I have participated in the realization of <span className="text_enlighted">several ambitious projects</span>. One of them is <span className="text_enlighted">Apollo, an interactive 3D planetarium</span> that enables users to explore and discover the solar system. Another project is <span className="text_enlighted">Luggage-Maker</span>, a game based on the theme of vacations, developed within a <span className="text_enlighted">limited time frame of 48 hours</span>.</p>
         <br />
-        <p>When I’m not at the computer, I’m usually rock climbing, hanging out with my wife and two cats, or running around Hyrule searching for Korok seeds.
+        <p>In my free time, when I'm not at the computer, I regularly <span className="text_enlighted">enjoy engaging in activities</span> such as mountain biking or playing golf. These outdoor pursuits allow me to <span className="text_enlighted"> stay active, explore nature, and challenge myself</span> physically while pursuing my interests in the digital realm.
         </p>
     </section>
   )

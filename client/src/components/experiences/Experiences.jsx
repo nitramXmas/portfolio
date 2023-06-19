@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import Experience from '../experienceCard/ExperienceCard'
+import "./experiences.css"
 
 
 const Experiences = () => {
@@ -25,6 +26,7 @@ useEffect(()=> {
                     <Experience key={experience.id} experience = {experience} />
                 ))}
             </div>
+            <div className="resume_file"><img className='resume_arrow' src="/arrow.png"/><a href="./Martin-NOEL.pdf" download="Resume of Martin NOEL">Full resume available here</a></div>
     </section>
   )
 }

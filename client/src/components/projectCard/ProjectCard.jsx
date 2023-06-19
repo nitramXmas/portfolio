@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const ProjectCard = ({project}) => {
 
   return (
-    <Link state={project}style={{ color: 'inherit', textDecoration: 'inherit'}}  to={`/projects/${project.id}`}>
+    <Link style={{ color: 'inherit', textDecoration: 'inherit'}}  to={`/projects/${project.id}`}>
       <div className='project_container'>
         <div className='project_picture' style={{backgroundImage: `url(${project.image})`}}></div>
         <div className='project_content'>
@@ -17,7 +17,7 @@ const ProjectCard = ({project}) => {
                 {project.status === 'En-cours' ? <p> {project.status}     🚀</p> : null}
               </div>
             </div>
-            <div className="project_text">{project.text}</div>
+            <div className="project_text">{project.subtitle}</div>
           </div>
           <div className="project_techs">
             {project.tech.map((tech,index) =>

@@ -2,7 +2,6 @@
 
   width: 100%;
   padding: 6em 2em;
-  padding-bottom: 6em;
   max-width: 1260px;
   margin: auto;
   display: flex;
@@ -15,4 +14,6 @@
   padding: 0.5em
 
 }
+
+
 
