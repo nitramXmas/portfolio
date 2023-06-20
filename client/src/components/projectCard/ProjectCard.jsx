@@ -12,10 +12,6 @@ const ProjectCard = ({project}) => {
           <div className="project_header">
             <div className="project_firstline">
               <h1>{project.subtitle}</h1>
-              <div className="project_status">
-                {project.status === 'Terminé' ? <p> {project.status}      ✅</p> : null}
-                {project.status === 'En-cours' ? <p> {project.status}     🚀</p> : null}
-              </div>
             </div>
             <div className="project_text">{project.subtitle}</div>
           </div>

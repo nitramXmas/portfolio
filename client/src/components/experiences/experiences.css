@@ -16,10 +16,25 @@
 
 }
 
+.resume_file{
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding-top: 1em;
+}
+
 .resume_file a{
 
   text-decoration: none;
   color: rgb(225,225,225);
   font-size: 1.1em;
 
+}
+
+.resume_file a img{
+
+  height: 1.5em;
+  height: 1.5em;
+  display: flex;
+  align-items: center;
 }

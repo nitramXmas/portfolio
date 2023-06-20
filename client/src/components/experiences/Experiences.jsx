@@ -27,7 +27,12 @@ useEffect(()=> {
                     <Experience key={experience.id} experience = {experience} />
                 ))}
             </div>
-            <div className="resume_file"><img className='resume_arrow' src="/arrow.png"/><a href="./Martin-NOEL.pdf" download="Resume of Martin NOEL">Full resume available here</a></div>
+            <div className="resume_file">
+            Full resume available here
+              <img className='resume_arrow' src="/arrow.png"/>
+            <a href="./CV-ENG.pdf" download="Martin NOEL's resume"><img src="./uk.svg" alt="UK flag" /></a>
+            <a href="./CV-FR.pdf" download="CV de Martin NOEL"><img src="./france.svg" alt="FR flag" /></a>
+            </div>
     </section>
   )
 }
