@@ -6,6 +6,7 @@ import { HashLink } from 'react-router-hash-link';
 
 
 const Navbar = ({activeSection, setActiveSection}) => {
+
   return (
 
     <div className='navbar'>

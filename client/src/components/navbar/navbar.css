@@ -20,8 +20,9 @@
   display: flex;
   align-items: center;
   gap: 0.8em;
-  width: 10em;
+  width: 20em;
   color: var(--main-txt-color);
+  letter-spacing: .2em;
 }
 
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from '../components/navbar/Navbar'
 import Content from '../components/content/Content'
 
@@ -8,10 +8,11 @@ const Main = () => {
 
   const [activeSection, setActiveSection] = useState('about')
 
+
   return (
     <div className='main' >
       <Navbar activeSection={activeSection} setActiveSection={setActiveSection} />
-      <Content />
+      <Content on activeSection={activeSection} setActiveSection={setActiveSection} />
     </div>
   )
 }

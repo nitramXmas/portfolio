@@ -120,17 +120,25 @@ background-repeat: no-repeat;
 @media screen and (max-width:860px) {
 
   .details_image{
-    height: 30vh
+    height: 15vh;
   }
 
 .details_body {
-  
+
 flex-direction: column;
 
 }
 
 .details_right {
   flex-direction: column-reverse;
+}
+
+.details_links{
+
+  flex-direction: column;
+  align-items: flex-start;
+  gap:1em
+
 }
 
 

@@ -14,7 +14,7 @@ useEffect(()=> {
         .then((res) => setProjects(res.data))
         .catch(err => console.log(err))
         
-},[])
+},[]);
 
   return (
     <section id='projects'>

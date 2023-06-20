@@ -20,11 +20,10 @@ const {id} = useParams()
           
   },[])
 
-
   return (
     <>
 
-<Link to="/"> <img className='return_arrow' src="/arrow.png"/></Link>
+<Link preventScrollReset={true} to="/"> <img className='return_arrow' src="/arrow.png"/></Link>
 
 {projectDetails && 
 projectDetails

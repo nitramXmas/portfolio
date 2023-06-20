@@ -3,13 +3,14 @@ import Experiences from '../experiences/Experiences.jsx'
 import Projects from '../projects/Projects.jsx'
 import './content.css'
 
-const Content = () => {
+
+const Content = ({activeSection, setActiveSection}) => {
 
   return (
     <div className='content'>
-      <About  />
-      <Experiences />
-      <Projects />
+      <About activeSection={activeSection} setActiveSection={setActiveSection}   />
+      <Experiences activeSection={activeSection} setActiveSection={setActiveSection} />
+      <Projects activeSection={activeSection} setActiveSection={setActiveSection} />
     </div>
   )
 }
