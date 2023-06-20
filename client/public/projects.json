@@ -7,7 +7,7 @@
     "title": "Make It Grow",
     "subtitle": "Idea management platform",
     "text": "Its purpose is to facilitate and streamline the process of managing ideas within an organization, fostering innovation and collaboration. Users can easily submit their ideas through the platform, providing detailed descriptions and relevant information. Ideas are tracked throughout their lifecycle, from submission to evaluation and vote stages. The platform enables users to collaborate on ideas, allowing for comments, discussions, and feedback. This fosters a culture of teamwork and collective innovation.",
-    "gitLink": "",
+    "gitLink": "https://github.com/Ashitaaka/make-it-grow/tree/dev",
     "link": "",
     "tech": [
       "JavaScript",
@@ -25,8 +25,8 @@
     "type": "Hackaton",
     "title": "Luggage-Maker",
     "subtitle": "Travel-themed game",
-    "gitLink": "https://github.com/nitramXmas/luggage-maker",
     "text": "This project was developed during a 48-hour hackathon. The purpose of Luggage-Maker is to challenge players to find the perfect luggage for a specific travel destination. Players are presented with different travel destinations and are required to select the most suitable luggage based on the location, weather, and activities.",
+    "gitLink": "https://github.com/nitramXmas/luggage-maker",
     "link": "",
     "tech": [
       "JavaScript",
@@ -44,8 +44,8 @@
     "type": "Group project",
     "title": "Apollo",
     "subtitle": "Interactive 3D planetarium",
-    "gitLink": "https://github.com/nitramXmas/apollo",
     "text": "The project involved developing a 3D interactive planetarium on the web. Using technologies such as three.JS and React Three Fiber, the goal was to create an immersive experience for users. The planetarium allowed users to explore the night sky, navigate through different planets, and learn about various of their astronomical infornations. Interactive features were implemented, allowing users to zoom in, rotate, and interact with the celestial bodies. Additional functionalities included displaying information about each object, such as its name, characteristics, and related facts.",
+    "gitLink": "https://github.com/nitramXmas/apollo",
     "link": "https://apollo.martinnoel.fr/",
     "tech": [
       "JavaScript",
@@ -63,8 +63,8 @@
     "status": "Completed",
     "type": "Group project",
     "title": "Wookie - Clicker",
-    "subtitle": "Star Wars-themed clicker game",
     "text": "The Wookie-Clicker Game is a web-based game developed to provide an entertaining and immersive experience for users who are fans of both cookie clicker games and the Star Wars franchise. The objective of the game is to click on various Star Wars-themed helpers to accumulate coins and unlock special features such as more click power or automatic clicks per seconds.",
+    "subtitle": "Star Wars-themed clicker game",
     "gitLink": "https://github.com/justroxanne/WCS-Cookie-Clicker",
     "link": "https://wookie.martinnoel.fr/",
     "tech": [
